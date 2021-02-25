@@ -2,6 +2,9 @@
 
 int gcd(int a, int b) {
     // поместить сюда текст реализации алгоритма (на С++)
+    if ( a==b ) {
+        return a;
+    } else {
         do {
          if ( a > b ) {
             a = a - (a / b) * b;
@@ -11,4 +14,5 @@ int gcd(int a, int b) {
              return b;
             }
         } while ((a != 0) || (b != 0));
+    }
 }
