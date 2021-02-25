@@ -13,6 +13,6 @@ int gcd(int a, int b) {
              b = b - (b / a) * a;
              return b; 
             }
-        } while (( a != 0 ) || ( b != 0 )) ;
+        } while ((a != 0) || (b != 0));
     }
 }
