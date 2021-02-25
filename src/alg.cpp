@@ -2,7 +2,7 @@
 
 int gcd(int a, int b) {
     // поместить сюда текст реализации алгоритма (на С++)
-    if(a==b)return a;
+    if(a==b){return a;}
     else{
     do{
         if(a>b) {
