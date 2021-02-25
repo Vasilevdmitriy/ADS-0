@@ -5,11 +5,11 @@ int gcd(int a, int b) {
         do {
          if ( a > b ) {
             a = a - (a / b) * b;
-             return a;    
+             return a;   
             }
-            else { 
+            else {
              b = b - (b / a) * a;
-             return b; 
+             return b;
             }
         } while ((a != 0) || (b != 0));
 }
