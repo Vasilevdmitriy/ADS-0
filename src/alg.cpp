@@ -2,10 +2,10 @@
 
 int gcd(int a, int b) {
     // поместить сюда текст реализации алгоритма (на С++)
-    if(a == b) {return a;}
+    if ( a == b ) {return a;}
     else {
         do {
-         if(a>b) {
+         if ( a > b ) {
             a=a-(a/b)*b;
              return a;    
             }
@@ -13,6 +13,6 @@ int gcd(int a, int b) {
              b=b-(b/a)*a;
              return b; 
             }
-        }while((a!=0)||(b!=0));
+        } while ( ( a!=0 ) || ( b!=0 ) ) ;
     }
 }
